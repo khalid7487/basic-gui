@@ -119,11 +119,6 @@ public class BasicGUI extends javax.swing.JFrame {
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, 30));
 
         txtname.setPreferredSize(new java.awt.Dimension(12, 20));
-        txtname.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnameActionPerformed(evt);
-            }
-        });
         jPanel1.add(txtname, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 15, 150, 28));
 
         txtaddress.setPreferredSize(new java.awt.Dimension(12, 20));
@@ -285,10 +280,6 @@ public class BasicGUI extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void txtnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtnameActionPerformed
 
     private void btnsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsaveActionPerformed
         //save
