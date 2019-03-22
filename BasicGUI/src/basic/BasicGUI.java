@@ -344,7 +344,7 @@ public class BasicGUI extends javax.swing.JFrame {
         } else {
             gend = "Female";
         }
-        //checkboxs
+        //checkboxs 
         for (int i = 0; i < panelDegree.getComponentCount(); i++) {
             JCheckBox checkBox = (JCheckBox) panelDegree.getComponent(i);
             if (checkBox.isSelected()) {
@@ -470,6 +470,7 @@ public class BasicGUI extends javax.swing.JFrame {
         cmbCountry.setSelectedIndex(0);
         degree = "";
         gender.clearSelection();
+        //diselect checkbox
         for (int i = 0; i < panelDegree.getComponentCount(); i++) {
             JCheckBox checkbox = (JCheckBox) panelDegree.getComponent(i);
             if (checkbox.isSelected()) {
